@@ -1,6 +1,6 @@
 //
 //  SwiftLogo_SwiftUIApp.swift
-//  SwiftLogo-SwiftUI
+//  Shape-SwiftUI
 //
 //  Created by Алексей Синяговский on 30.05.2022.
 //

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A112F96E28463D1C00CD80D0 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112F96D28463D1C00CD80D0 /* ShapeView.swift */; };
 		A115A836284510360095C458 /* SwiftLogo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115A835284510360095C458 /* SwiftLogo_SwiftUIApp.swift */; };
 		A115A838284510360095C458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115A837284510360095C458 /* ContentView.swift */; };
 		A115A83A284510380095C458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A115A839284510380095C458 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A112F96D28463D1C00CD80D0 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		A115A832284510360095C458 /* SwiftLogo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftLogo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115A835284510360095C458 /* SwiftLogo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogo_SwiftUIApp.swift; sourceTree = "<group>"; };
 		A115A837284510360095C458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				A115A835284510360095C458 /* SwiftLogo_SwiftUIApp.swift */,
 				A115A837284510360095C458 /* ContentView.swift */,
+				A112F96D28463D1C00CD80D0 /* ShapeView.swift */,
 				A115A839284510380095C458 /* Assets.xcassets */,
 				A115A83B284510380095C458 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A112F96E28463D1C00CD80D0 /* ShapeView.swift in Sources */,
 				A115A838284510360095C458 /* ContentView.swift in Sources */,
 				A115A836284510360095C458 /* SwiftLogo_SwiftUIApp.swift in Sources */,
 			);
