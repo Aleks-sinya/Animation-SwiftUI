@@ -24,10 +24,21 @@ struct ContentView: View {
                 .animation(.easeOut(duration: 0.8), value: offset)
             
             Spacer()
+            
             Button(action: animation ? hideShape : showShape) {
                 Text(animation ? "Hide" : "Show")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundColor(.black)
             }
+            .frame(width: 100, height: 40)
+                .background(.orange)
+                .cornerRadius(12)
+                .padding()
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .background(.black)
     }
     
     private func showShape() {
