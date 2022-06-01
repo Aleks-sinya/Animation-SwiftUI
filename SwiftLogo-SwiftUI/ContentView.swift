@@ -21,7 +21,7 @@ struct ContentView: View {
                 .rotation3DEffect(.init(degrees: animation ? 0 : 55),
                                   axis: (x: animation ? 0 : 1.0, y: 0, z: 0))
                 .opacity(offset == -UIScreen.main.bounds.height ? 0 : 1.0)
-                .animation(.easeOut(duration: 0.8), value: animation)
+                .animation(.easeOut(duration: 0.8), value: offset)
             
             Spacer()
             Button(action: animation ? hideShape : showShape) {
@@ -40,11 +40,9 @@ struct ContentView: View {
     }
     
     private func hideShape() {
-        withAnimation {
-            animation.toggle()
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-                offset = -UIScreen.main.bounds.height
-            }
+        animation.toggle()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+            offset = -UIScreen.main.bounds.height
         }
     }
 }
